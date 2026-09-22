@@ -1,0 +1,104 @@
+{
+  "checkedAt": "2026-09-22T12:09:44.100108+00:00",
+  "kind": "lossless_encoded_byte_correction_only",
+  "content": "2026-10-02-water-the-plant-not-the-calendar",
+  "beforeBytes": 2000596,
+  "afterBytes": 1950573,
+  "beforePixelStreamSha256": "86abec1ebb5c09d09ba7efe76e712802e80111ea36eddc9fb151e4932fab72e9",
+  "afterPixelStreamSha256": "86abec1ebb5c09d09ba7efe76e712802e80111ea36eddc9fb151e4932fab72e9",
+  "pixelStreamIdentical": true,
+  "nonIdatChunksIdentical": true,
+  "manifestVersion": 2,
+  "captionsAndDatesUnchanged": true,
+  "allEightFilesWithinProviderSizeLimit": true,
+  "posts": [
+    {
+      "id": "2026-09-29-your-plant-is-talking",
+      "version": 1,
+      "publishAt": "2026-09-22T18:00:00+02:00",
+      "bytes": 1974699,
+      "width": 1254,
+      "height": 1254,
+      "sha256": "951c9da5b17a957476a2af35687c988b0f62c398fa45542ab32d8f096be1794a",
+      "captionCodePointsWithHashtags": 131,
+      "withinBlueskyByteLimit": true
+    },
+    {
+      "id": "2026-10-02-water-the-plant-not-the-calendar",
+      "version": 2,
+      "publishAt": "2026-09-25T18:00:00+02:00",
+      "bytes": 1950573,
+      "width": 1254,
+      "height": 1254,
+      "sha256": "3c4e4cc98e6b41b365550ddb209a92f38ae5e827bb51b0d2704caba86712bd58",
+      "captionCodePointsWithHashtags": 142,
+      "withinBlueskyByteLimit": true
+    },
+    {
+      "id": "2026-10-06-growth-happens-quietly",
+      "version": 1,
+      "publishAt": "2026-09-29T18:00:00+02:00",
+      "bytes": 1762894,
+      "width": 1254,
+      "height": 1254,
+      "sha256": "462ce0e6614afb25569fbd9a27e14539889cdf335a040477923392dc387ecc9b",
+      "captionCodePointsWithHashtags": 142,
+      "withinBlueskyByteLimit": true
+    },
+    {
+      "id": "2026-10-09-one-photo-today-story-tomorrow",
+      "version": 1,
+      "publishAt": "2026-10-02T18:00:00+02:00",
+      "bytes": 1906282,
+      "width": 1254,
+      "height": 1254,
+      "sha256": "bc36e68e4cfef8f775e64e2c62320f58276037f1ef911f0e369968d55454afbc",
+      "captionCodePointsWithHashtags": 139,
+      "withinBlueskyByteLimit": true
+    },
+    {
+      "id": "2026-10-13-yellow-leaf-clue",
+      "version": 1,
+      "publishAt": "2026-10-06T18:00:00+02:00",
+      "bytes": 1972820,
+      "width": 1254,
+      "height": 1254,
+      "sha256": "3aa8ed5e65e646a1ac89899c5ef9139b73d1738606e34c4c0921750f0efbd0aa",
+      "captionCodePointsWithHashtags": 143,
+      "withinBlueskyByteLimit": true
+    },
+    {
+      "id": "2026-10-16-ten-second-plant-check",
+      "version": 1,
+      "publishAt": "2026-10-09T18:00:00+02:00",
+      "bytes": 1899235,
+      "width": 1254,
+      "height": 1254,
+      "sha256": "c06af75aa39b3cb7a80e45d1bb32c7239e5b4adcfb32f22804453cfa08d03006",
+      "captionCodePointsWithHashtags": 141,
+      "withinBlueskyByteLimit": true
+    },
+    {
+      "id": "2026-10-20-notice-growth-look-back",
+      "version": 1,
+      "publishAt": "2026-10-13T18:00:00+02:00",
+      "bytes": 1994499,
+      "width": 1254,
+      "height": 1254,
+      "sha256": "26e72e416797515a4e60ac77d1bcaa6561686c106973481d4a9de68a712fd5f9",
+      "captionCodePointsWithHashtags": 149,
+      "withinBlueskyByteLimit": true
+    },
+    {
+      "id": "2026-10-23-know-more-than-name",
+      "version": 1,
+      "publishAt": "2026-10-16T18:00:00+02:00",
+      "bytes": 1904755,
+      "width": 1254,
+      "height": 1254,
+      "sha256": "c8ce4230bc4d9eca904588e97f67123b1c84269c53758ba04e81daf4efad6266",
+      "captionCodePointsWithHashtags": 150,
+      "withinBlueskyByteLimit": true
+    }
+  ]
+}
