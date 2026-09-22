@@ -1,0 +1,21 @@
+{
+  "id": "2026-09-29-your-plant-is-talking",
+  "version": 1,
+  "status": "approved",
+  "language": "en",
+  "publishAt": "2026-09-29T18:00:00+02:00",
+  "image": "social.png",
+  "altText": "Premium VerdeVivo graphic showing a glossy green houseplant leaf with a slightly browned, yellowing tip in warm natural light. Text reads “Your plant is talking” and “Small changes can tell you a lot — if you learn to notice them.”",
+  "caption": "Your plant is talking. Small changes can reveal a lot when you learn to notice them.",
+  "hashtags": [
+    "PlantCare",
+    "Houseplants",
+    "PlantTips",
+    "VerdeVivo"
+  ],
+  "channels": [
+    "bluesky",
+    "mastodon",
+    "youtube"
+  ]
+}

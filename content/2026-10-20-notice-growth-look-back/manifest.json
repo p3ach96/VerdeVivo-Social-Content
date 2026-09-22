@@ -1,0 +1,21 @@
+{
+  "id": "2026-10-20-notice-growth-look-back",
+  "version": 1,
+  "status": "approved",
+  "language": "en",
+  "publishAt": "2026-10-20T18:00:00+02:00",
+  "image": "social.png",
+  "altText": "VerdeVivo graphic showing a mature variegated plant in the foreground and a softly blurred photo of the same plant when it was smaller. Text reads “You notice growth when you look back.”",
+  "caption": "Day to day, growth can feel invisible. Look back months later and the change is suddenly everywhere.",
+  "hashtags": [
+    "PlantLove",
+    "Houseplants",
+    "PlantGrowth",
+    "VerdeVivo"
+  ],
+  "channels": [
+    "bluesky",
+    "mastodon",
+    "youtube"
+  ]
+}

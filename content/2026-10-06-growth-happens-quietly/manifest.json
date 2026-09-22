@@ -1,0 +1,21 @@
+{
+  "id": "2026-10-06-growth-happens-quietly",
+  "version": 1,
+  "status": "approved",
+  "language": "en",
+  "publishAt": "2026-10-06T18:00:00+02:00",
+  "image": "social.png",
+  "altText": "VerdeVivo graphic of a fresh light-green leaf slowly unfurling among mature leaves in soft morning light. Text reads “Growth happens quietly” and “Then one day, you notice.”",
+  "caption": "Growth happens quietly. A new leaf, a longer stem, stronger roots — then one day, you notice.",
+  "hashtags": [
+    "PlantLove",
+    "Houseplants",
+    "PlantGrowth",
+    "VerdeVivo"
+  ],
+  "channels": [
+    "bluesky",
+    "mastodon",
+    "youtube"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "2026-10-13-yellow-leaf-clue",
+  "version": 1,
+  "status": "approved",
+  "language": "en",
+  "publishAt": "2026-10-13T18:00:00+02:00",
+  "image": "social.png",
+  "altText": "VerdeVivo graphic showing a healthy variegated houseplant with one prominent yellow leaf in warm sunlight. Text reads “A yellow leaf is a clue, not a diagnosis” and “Look for patterns, not panic.”",
+  "caption": "A yellow leaf is a clue, not a diagnosis. Look for patterns before changing your care routine.",
+  "hashtags": [
+    "PlantCare",
+    "Houseplants",
+    "PlantHealth",
+    "VerdeVivo"
+  ],
+  "channels": [
+    "bluesky",
+    "mastodon",
+    "youtube"
+  ]
+}
