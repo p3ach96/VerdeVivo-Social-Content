@@ -1,0 +1,96 @@
+name: Import approved Month 1 editorial content
+
+on:
+  push:
+    paths:
+      - ".github/workflows/import-month1.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Import approved assets and manifests
+        shell: bash
+        env:
+          U01: "https://d2ol7oe51mr4n9.cloudfront.net/user_3IKUgIPJVJaS3AlVNLw6EYWWGJC/20f7961b-965d-47a6-90d9-23619d34d405.png"
+          U02: "https://d2ol7oe51mr4n9.cloudfront.net/user_3IKUgIPJVJaS3AlVNLw6EYWWGJC/6b3bec53-53fe-44fc-b953-9ffd0adba5e5.png"
+          U03: "https://d2ol7oe51mr4n9.cloudfront.net/user_3IKUgIPJVJaS3AlVNLw6EYWWGJC/972fcfb7-aa41-48da-99e3-8f5db22dc89d.png"
+          U04: "https://d2ol7oe51mr4n9.cloudfront.net/user_3IKUgIPJVJaS3AlVNLw6EYWWGJC/a9aefffd-07aa-47ce-a261-530c302c6b84.png"
+          U05: "https://d2ol7oe51mr4n9.cloudfront.net/user_3IKUgIPJVJaS3AlVNLw6EYWWGJC/6a76a9b0-bc48-4d43-8650-697eaa825349.png"
+          U06: "https://d2ol7oe51mr4n9.cloudfront.net/user_3IKUgIPJVJaS3AlVNLw6EYWWGJC/09213faf-4e7c-495d-b57f-9f81c6853ed6.png"
+          U07: "https://d2ol7oe51mr4n9.cloudfront.net/user_3IKUgIPJVJaS3AlVNLw6EYWWGJC/9a131778-6bee-4cac-812a-7ee2618ccb73.png"
+          U08: "https://d2ol7oe51mr4n9.cloudfront.net/user_3IKUgIPJVJaS3AlVNLw6EYWWGJC/9322f6fc-b824-4bf6-bba9-86eb55505130.png"
+        run: |
+          set -euo pipefail
+          if find content -mindepth 1 -maxdepth 1 -type d | grep -q .; then
+            echo "Content directory is not empty; refusing import."
+            exit 1
+          fi
+
+          python3 - <<'PY'
+          import json, os, pathlib, urllib.request
+          posts = [
+            ("2026-09-29-your-plant-is-talking","2026-09-29T18:00:00+02:00","Premium VerdeVivo graphic showing a glossy green houseplant leaf with a slightly browned, yellowing tip in warm natural light. Text reads “Your plant is talking” and “Small changes can tell you a lot — if you learn to notice them.”","Your plant is talking. Small changes can reveal a lot when you learn to notice them.",["PlantCare","Houseplants","PlantTips","VerdeVivo"]),
+            ("2026-10-02-water-the-plant-not-the-calendar","2026-10-02T18:00:00+02:00","VerdeVivo graphic of a hand gently pressing a finger into potting soil beside a healthy variegated houseplant in warm sunlight. Text reads “Water the plant, not the calendar” and “Check first. Water second.”","Water the plant, not the calendar. Check the soil first, then decide whether it needs water.",["PlantCare","Houseplants","WateringTips","VerdeVivo"]),
+            ("2026-10-06-growth-happens-quietly","2026-10-06T18:00:00+02:00","VerdeVivo graphic of a fresh light-green leaf slowly unfurling among mature leaves in soft morning light. Text reads “Growth happens quietly” and “Then one day, you notice.”","Growth happens quietly. A new leaf, a longer stem, stronger roots — then one day, you notice.",["PlantLove","Houseplants","PlantGrowth","VerdeVivo"]),
+            ("2026-10-09-one-photo-today-story-tomorrow","2026-10-09T18:00:00+02:00","VerdeVivo graphic with three instant-photo style images of the same potted plant at Day 1, Day 60 and Day 180, showing its growth over time. Text reads “One photo today. A story tomorrow.”","One photo today. A story tomorrow. Keep the moments that show how your plant has grown.",["PlantJournal","Houseplants","PlantGrowth","VerdeVivo"]),
+            ("2026-10-13-yellow-leaf-clue","2026-10-13T18:00:00+02:00","VerdeVivo graphic showing a healthy variegated houseplant with one prominent yellow leaf in warm sunlight. Text reads “A yellow leaf is a clue, not a diagnosis” and “Look for patterns, not panic.”","A yellow leaf is a clue, not a diagnosis. Look for patterns before changing your care routine.",["PlantCare","Houseplants","PlantHealth","VerdeVivo"]),
+            ("2026-10-16-ten-second-plant-check","2026-10-16T18:00:00+02:00","VerdeVivo graphic showing a hand inspecting a variegated leaf with the plant pot and soil visible. Text reads “The 10-second plant check,” followed by “Leaves. Soil. Growth. Pests.”","The 10-second plant check: leaves, soil, growth and pests. Small checks prevent big surprises.",["PlantCare","Houseplants","PlantTips","VerdeVivo"]),
+            ("2026-10-20-notice-growth-look-back","2026-10-20T18:00:00+02:00","VerdeVivo graphic showing a mature variegated plant in the foreground and a softly blurred photo of the same plant when it was smaller. Text reads “You notice growth when you look back.”","Day to day, growth can feel invisible. Look back months later and the change is suddenly everywhere.",["PlantLove","Houseplants","PlantGrowth","VerdeVivo"]),
+            ("2026-10-23-know-more-than-name","2026-10-23T18:00:00+02:00","VerdeVivo graphic showing a variegated houseplant surrounded by subtle care-history callouts for watering, repotting, a note, a photo and a milestone. Text reads “Know more than your plant's name.”","Knowing a plant's name is useful. Knowing its history helps you understand how it changes over time.",["PlantCare","PlantJournal","Houseplants","VerdeVivo"]),
+          ]
+          for i, (pid, publish, alt, caption, tags) in enumerate(posts, 1):
+              d = pathlib.Path("content") / pid
+              d.mkdir(parents=True, exist_ok=False)
+              manifest = {
+                  "id": pid, "version": 1, "status": "approved", "language": "en",
+                  "publishAt": publish, "image": "social.png", "altText": alt,
+                  "caption": caption, "hashtags": tags,
+                  "channels": ["bluesky","mastodon","youtube"]
+              }
+              (d / "manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+              req = urllib.request.Request(os.environ[f"U{i:02d}"], headers={"User-Agent":"VerdeVivo-Editorial-Import/1.0"})
+              with urllib.request.urlopen(req, timeout=60) as resp:
+                  data = resp.read()
+              (d / "social.png").write_bytes(data)
+          PY
+
+          python3 - <<'PY'
+          import json, pathlib
+          from datetime import datetime
+          dirs=sorted(p for p in pathlib.Path("content").iterdir() if p.is_dir())
+          assert len(dirs)==8, len(dirs)
+          weeks={}
+          for d in dirs:
+              m=json.loads((d/"manifest.json").read_text(encoding="utf-8"))
+              assert m["id"]==d.name
+              assert m["status"]=="approved"
+              assert m["language"]=="en"
+              assert m["image"]=="social.png"
+              assert m["channels"]==["bluesky","mastodon","youtube"]
+              assert len(m["caption"])<=100
+              img=(d/"social.png").read_bytes()
+              assert img[:8]==b"\x89PNG\r\n\x1a\n"
+              assert 8 < len(img) <= 12_000_000
+              dt=datetime.fromisoformat(m["publishAt"])
+              iso=dt.isocalendar()
+              key=(iso.year,iso.week)
+              weeks[key]=weeks.get(key,0)+1
+          assert all(v<=2 for v in weeks.values()), weeks
+          print("Validated", len(dirs), "approved posts", weeks)
+          PY
+
+          git config user.name "VerdeVivo Editorial Automation"
+          git config user.email "actions@users.noreply.github.com"
+          git add content
+          git rm .github/workflows/import-month1.yml
+          git commit -m "content: schedule VerdeVivo month 1 editorial posts"
+          git push origin HEAD:main
