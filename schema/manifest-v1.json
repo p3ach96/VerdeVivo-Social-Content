@@ -15,6 +15,6 @@
     "altText": {"type": "string", "minLength": 1, "maxLength": 1500},
     "caption": {"type": "string", "minLength": 1, "maxLength": 5000},
     "hashtags": {"type": "array", "maxItems": 20, "uniqueItems": true, "items": {"type": "string", "pattern": "^[\\p{L}\\p{N}_]{1,30}$"}},
-    "channels": {"type": "array", "minItems": 1, "maxItems": 3, "uniqueItems": true, "items": {"type": "string", "enum": ["bluesky", "mastodon", "youtube"]}}
+    "channels": {"type": "array", "minItems": 1, "maxItems": 4, "uniqueItems": true, "items": {"type": "string", "enum": ["bluesky", "mastodon", "youtube", "instagram"]}}
   }
 }
