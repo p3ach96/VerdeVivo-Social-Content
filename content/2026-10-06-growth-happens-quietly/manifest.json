@@ -16,7 +16,6 @@
   "channels": [
     "bluesky",
     "mastodon",
-    "youtube",
-    "instagram"
+    "youtube"
   ]
 }
