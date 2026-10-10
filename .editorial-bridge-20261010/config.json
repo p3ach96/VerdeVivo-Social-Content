@@ -1,0 +1,238 @@
+{
+  "expectedBaseIndex": [
+    "2026-09-29-your-plant-is-talking",
+    "2026-10-02-water-the-plant-not-the-calendar",
+    "2026-10-06-growth-happens-quietly",
+    "2026-10-09-one-photo-today-story-tomorrow",
+    "2026-10-13-yellow-leaf-clue",
+    "2026-10-16-ten-second-plant-check",
+    "2026-10-20-notice-growth-look-back",
+    "2026-10-23-know-more-than-name"
+  ],
+  "items": [
+    {
+      "id": "2026-10-20-roots-need-space-too",
+      "sourceUrl": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IKUgIPJVJaS3AlVNLw6EYWWGJC/1a19e2da-5630-4368-81f4-f4cc3774584d.png",
+      "originalSha256": "ebbbda216fd22a5e1e4585bf95a745fc589276f457634cd6a2ca69d0b4b7c9d1",
+      "resize": 1180,
+      "manifest": {
+        "id": "2026-10-20-roots-need-space-too",
+        "version": 1,
+        "status": "approved",
+        "language": "en",
+        "publishAt": "2026-10-20T18:00:00+02:00",
+        "image": "social.png",
+        "altText": "Close-up botanical image of a variegated green houseplant with an exposed soil-and-root ball beside a speckled beige ceramic pot. White serif text reads “Roots need space too.”",
+        "caption": "Roots need room, but a bigger pot is not always better. Check for crowded roots and repot only when your plant needs it.",
+        "hashtags": [
+          "PlantRoots",
+          "Repotting",
+          "Houseplants",
+          "VerdeVivo"
+        ],
+        "channels": [
+          "bluesky",
+          "mastodon",
+          "youtube",
+          "instagram"
+        ]
+      }
+    },
+    {
+      "id": "2026-10-23-light-changes-everything",
+      "sourceUrl": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IKUgIPJVJaS3AlVNLw6EYWWGJC/d97bf77a-0679-4d17-8918-0105f2f13ff6.png",
+      "originalSha256": "1fd7d879de67d9ab11d67d3f27e149e93bd746695495c1323cb724da4aef6079",
+      "resize": null,
+      "manifest": {
+        "id": "2026-10-23-light-changes-everything",
+        "version": 1,
+        "status": "approved",
+        "language": "en",
+        "publishAt": "2026-10-23T18:00:00+02:00",
+        "image": "social.png",
+        "altText": "Variegated green plant leaves catching bright window light beside a speckled ceramic pot, with dramatic leaf shadows on a beige wall. White serif text reads “Light changes everything.”",
+        "caption": "More light is not always better. Find the light your plant prefers, then watch how it responds over time.",
+        "hashtags": [
+          "PlantLight",
+          "PlantCare",
+          "IndoorPlants",
+          "VerdeVivo"
+        ],
+        "channels": [
+          "bluesky",
+          "mastodon",
+          "youtube",
+          "instagram"
+        ]
+      }
+    },
+    {
+      "id": "2026-10-27-healthy-plants-are-rarely-perfect",
+      "sourceUrl": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IKUgIPJVJaS3AlVNLw6EYWWGJC/2dbd5c01-80c7-428b-8982-dddf59c60f96.png",
+      "originalSha256": "854a6c0d5e20f1ac6220bea3009fe493fb46bd2a59afbeb1f354b48028e1dc53",
+      "resize": null,
+      "manifest": {
+        "id": "2026-10-27-healthy-plants-are-rarely-perfect",
+        "version": 1,
+        "status": "approved",
+        "language": "en",
+        "publishAt": "2026-10-27T18:00:00+01:00",
+        "image": "social.png",
+        "altText": "Indoor plant in a speckled ceramic pot with a close-up green variegated leaf showing several small holes and brown-edged imperfections. White serif title reads “Healthy plants are rarely perfect.”",
+        "caption": "A small mark does not always mean trouble. Look for changes and patterns before deciding whether your plant needs help.",
+        "hashtags": [
+          "PlantHealth",
+          "PlantCare",
+          "Houseplants",
+          "VerdeVivo"
+        ],
+        "channels": [
+          "bluesky",
+          "mastodon",
+          "youtube",
+          "instagram"
+        ]
+      }
+    },
+    {
+      "id": "2026-10-30-new-leaves-tell-a-story",
+      "sourceUrl": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IKUgIPJVJaS3AlVNLw6EYWWGJC/814a01bd-d0f1-4fdf-9943-e4512bc5ca82.png",
+      "originalSha256": "75d934974b5ecc4f132ba156fdd839e89c7c7690df3f40e0d76540f43ed01ada",
+      "resize": null,
+      "manifest": {
+        "id": "2026-10-30-new-leaves-tell-a-story",
+        "version": 1,
+        "status": "approved",
+        "language": "en",
+        "publishAt": "2026-10-30T18:00:00+01:00",
+        "image": "social.png",
+        "altText": "Softly lit close-up of a pale lime-green new leaf unfolding among mature green-and-cream variegated foliage, in a natural speckled pot. White serif title reads “New leaves tell a story.”",
+        "caption": "A new leaf is a moment worth noticing. Track fresh growth alongside light, watering and the changes you make to your care routine.",
+        "hashtags": [
+          "NewGrowth",
+          "PlantJournal",
+          "Houseplants",
+          "VerdeVivo"
+        ],
+        "channels": [
+          "bluesky",
+          "mastodon",
+          "youtube",
+          "instagram"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-03-repotting-is-a-reset-not-a-setback",
+      "sourceUrl": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IKUgIPJVJaS3AlVNLw6EYWWGJC/4e624d63-5f0c-455f-b3f7-53a11882071f.png",
+      "originalSha256": "08c15c97111ae171f272030f5a7dd74152b5ba078f28aca5270b4a2e8f8223c4",
+      "resize": 1150,
+      "manifest": {
+        "id": "2026-11-03-repotting-is-a-reset-not-a-setback",
+        "version": 1,
+        "status": "approved",
+        "language": "en",
+        "publishAt": "2026-11-03T18:00:00+01:00",
+        "image": "social.png",
+        "altText": "Repotting scene with a lush variegated houseplant rising from fresh potting soil, loose substrate, a small garden trowel and a tipped terracotta pot. White serif title reads “Repotting is a reset, not a setback.”",
+        "caption": "Repotting works best when it answers a real need. Choose a suitable pot and substrate, then give your plant time to adjust.",
+        "hashtags": [
+          "Repotting",
+          "RootCare",
+          "PlantTips",
+          "VerdeVivo"
+        ],
+        "channels": [
+          "bluesky",
+          "mastodon",
+          "youtube",
+          "instagram"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-06-small-pests-early-signs-big-difference",
+      "sourceUrl": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IKUgIPJVJaS3AlVNLw6EYWWGJC/d8d3a5ae-5cbc-4e98-899a-152d6e590de3.png",
+      "originalSha256": "cb32426cce424ea718714a8eb53489dd8bbecfcd12bcb3d1f4a5c2cca6c16247",
+      "resize": null,
+      "manifest": {
+        "id": "2026-11-06-small-pests-early-signs-big-difference",
+        "version": 1,
+        "status": "approved",
+        "language": "en",
+        "publishAt": "2026-11-06T18:00:00+01:00",
+        "image": "social.png",
+        "altText": "A hand holds a black magnifying glass over a glossy variegated leaf, revealing tiny pale insects and specks. White serif headline reads “Small pests. Early signs. Big difference.”",
+        "caption": "Check the tops and undersides of leaves regularly. Spotting pests early gives you more options for protecting your plants.",
+        "hashtags": [
+          "PlantPests",
+          "PlantHealth",
+          "Houseplants",
+          "VerdeVivo"
+        ],
+        "channels": [
+          "bluesky",
+          "mastodon",
+          "youtube",
+          "instagram"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-10-consistency-beats-intensity",
+      "sourceUrl": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IKUgIPJVJaS3AlVNLw6EYWWGJC/0ac9ac37-c547-4bbd-a6b9-4e24735aa2f5.png",
+      "originalSha256": "a9c258ecc5997f811ee8bbcfb3eac7f00531f86880f976746b8d47f3468ea204",
+      "resize": 1200,
+      "manifest": {
+        "id": "2026-11-10-consistency-beats-intensity",
+        "version": 1,
+        "status": "approved",
+        "language": "en",
+        "publishAt": "2026-11-10T18:00:00+01:00",
+        "image": "social.png",
+        "altText": "Bronze watering can pouring water near the foliage of a variegated potted plant on a warm wooden surface in soft sunlight. White serif title reads “Consistency beats intensity.”",
+        "caption": "Steady, thoughtful care matters more than drastic fixes. Observe your plant first, then water or adjust its routine as needed.",
+        "hashtags": [
+          "PlantCare",
+          "PlantRoutine",
+          "Houseplants",
+          "VerdeVivo"
+        ],
+        "channels": [
+          "bluesky",
+          "mastodon",
+          "youtube",
+          "instagram"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-13-a-happy-plant-fits-its-space",
+      "sourceUrl": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IKUgIPJVJaS3AlVNLw6EYWWGJC/b97a398c-5022-4518-9c86-08f8bfcb3d1b.png",
+      "originalSha256": "8b8d6cb5b54b33230af78464e591041af4820ea24ffc005b18cf88ab7a9fed68",
+      "resize": null,
+      "manifest": {
+        "id": "2026-11-13-a-happy-plant-fits-its-space",
+        "version": 1,
+        "status": "approved",
+        "language": "en",
+        "publishAt": "2026-11-13T18:00:00+01:00",
+        "image": "social.png",
+        "altText": "Lush green-and-cream variegated houseplant in a beige speckled pot on a wooden shelf beside a few stacked books. White serif title reads “A happy plant fits its space.”",
+        "caption": "The best spot depends on the plant. Think about its light, temperature and space needs before choosing where it lives.",
+        "hashtags": [
+          "IndoorPlants",
+          "PlantPlacement",
+          "PlantCare",
+          "VerdeVivo"
+        ],
+        "channels": [
+          "bluesky",
+          "mastodon",
+          "youtube",
+          "instagram"
+        ]
+      }
+    }
+  ]
+}
