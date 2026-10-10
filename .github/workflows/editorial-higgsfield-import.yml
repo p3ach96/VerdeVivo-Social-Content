@@ -1,0 +1,46 @@
+name: VerdeVivo approved editorial media bridge
+
+on:
+  push:
+    branches:
+      - editorial-20261020-20261113-media-import
+    paths:
+      - .github/workflows/editorial-higgsfield-import.yml
+
+permissions:
+  contents: write
+
+jobs:
+  import-approved-editorial-media:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - name: Checkout isolated staging branch
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+          fetch-depth: 1
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install pinned Pillow for approved exact image hashes
+        run: python -m pip install --disable-pip-version-check Pillow==12.3.0
+      - name: Download from approved Higgsfield URLs and verify eight assets
+        run: python .editorial-bridge-20261010/import_media.py
+      - name: Commit only verified media and manifests on staging branch
+        shell: bash
+        run: |
+          set -Eeuo pipefail
+          test "$(git branch --show-current)" = "editorial-20261020-20261113-media-import"
+          git add content/index.json ops/editorial-validation-20261010.json
+          for path in content/2026-10-*/social.png content/2026-10-*/manifest.json content/2026-11-*/social.png content/2026-11-*/manifest.json; do
+            [[ -f "$path" ]] && git add -- "$path"
+          done
+          git diff --cached --check
+          files="$(git diff --cached --name-only | wc -l | tr -d ' ')"
+          test "$files" -eq 18
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "content: stage 8 approved social posts Oct-Nov 2026"
+          git push origin HEAD:editorial-20261020-20261113-media-import
