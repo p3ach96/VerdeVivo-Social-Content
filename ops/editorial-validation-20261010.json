@@ -1,0 +1,94 @@
+{
+  "checkedAt": "2026-10-10T11:28:54.607336+00:00",
+  "source": "Higgsfield-uploaded approved artwork",
+  "pillowVersion": "12.3.0",
+  "imageHashesMatchLocalPreparedPack": true,
+  "resizedDeliveryApprovedByUser": true,
+  "scheduledPosts": 8,
+  "weeks": {
+    "2026-W43": 2,
+    "2026-W44": 2,
+    "2026-W45": 2,
+    "2026-W46": 2
+  },
+  "channels": [
+    "bluesky",
+    "mastodon",
+    "youtube",
+    "instagram"
+  ],
+  "posts": [
+    {
+      "id": "2026-10-20-roots-need-space-too",
+      "publishAt": "2026-10-20T18:00:00+02:00",
+      "bytes": 1977614,
+      "sha256": "d8af26cf0d85093726452ffe6e116028483d91c98dcfef11fa265bd337c6c0d2",
+      "width": 1180,
+      "height": 1180,
+      "method": "resize_lanczos_approved"
+    },
+    {
+      "id": "2026-10-23-light-changes-everything",
+      "publishAt": "2026-10-23T18:00:00+02:00",
+      "bytes": 1932573,
+      "sha256": "3f1b83850e89405c299a99572fb2eaa98d6d7d169add005b005bbf34b9189540",
+      "width": 1254,
+      "height": 1254,
+      "method": "lossless_recompress"
+    },
+    {
+      "id": "2026-10-27-healthy-plants-are-rarely-perfect",
+      "publishAt": "2026-10-27T18:00:00+01:00",
+      "bytes": 1894004,
+      "sha256": "ddd998a4acdf35f4399865f9c1a8537d5f2d18f2349e8f5c2a4380dcc15726a5",
+      "width": 1254,
+      "height": 1254,
+      "method": "lossless_recompress"
+    },
+    {
+      "id": "2026-10-30-new-leaves-tell-a-story",
+      "publishAt": "2026-10-30T18:00:00+01:00",
+      "bytes": 1949101,
+      "sha256": "d0c9373d0d9f58a20635b1eba3b4e5845c468fc93055015247d4b3749251547e",
+      "width": 1254,
+      "height": 1254,
+      "method": "lossless_recompress"
+    },
+    {
+      "id": "2026-11-03-repotting-is-a-reset-not-a-setback",
+      "publishAt": "2026-11-03T18:00:00+01:00",
+      "bytes": 1954775,
+      "sha256": "548d3f495ecbbfde902aea1b0c18f617f9718e2c8ecf9f2255343e3aa3543f9d",
+      "width": 1150,
+      "height": 1150,
+      "method": "resize_lanczos_approved"
+    },
+    {
+      "id": "2026-11-06-small-pests-early-signs-big-difference",
+      "publishAt": "2026-11-06T18:00:00+01:00",
+      "bytes": 1922889,
+      "sha256": "d2e1d9eaa9f51101ac7c49890521575920af55321f060add810b23e862d9158f",
+      "width": 1254,
+      "height": 1254,
+      "method": "lossless_recompress"
+    },
+    {
+      "id": "2026-11-10-consistency-beats-intensity",
+      "publishAt": "2026-11-10T18:00:00+01:00",
+      "bytes": 1967541,
+      "sha256": "916fdc54307dee392a379bc449351f0588c2ffcde045be8cc593e310a6063c81",
+      "width": 1200,
+      "height": 1200,
+      "method": "resize_lanczos_approved"
+    },
+    {
+      "id": "2026-11-13-a-happy-plant-fits-its-space",
+      "publishAt": "2026-11-13T18:00:00+01:00",
+      "bytes": 1982423,
+      "sha256": "244ff1f75ed4cd0c9568348038d2b7f549353481686e0769ec7954d28cb44cfe",
+      "width": 1254,
+      "height": 1254,
+      "method": "lossless_recompress"
+    }
+  ]
+}

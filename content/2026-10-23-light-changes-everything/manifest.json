@@ -1,0 +1,22 @@
+{
+  "id": "2026-10-23-light-changes-everything",
+  "version": 1,
+  "status": "approved",
+  "language": "en",
+  "publishAt": "2026-10-23T18:00:00+02:00",
+  "image": "social.png",
+  "altText": "Variegated green plant leaves catching bright window light beside a speckled ceramic pot, with dramatic leaf shadows on a beige wall. White serif text reads “Light changes everything.”",
+  "caption": "More light is not always better. Find the light your plant prefers, then watch how it responds over time.",
+  "hashtags": [
+    "PlantLight",
+    "PlantCare",
+    "IndoorPlants",
+    "VerdeVivo"
+  ],
+  "channels": [
+    "bluesky",
+    "mastodon",
+    "youtube",
+    "instagram"
+  ]
+}
