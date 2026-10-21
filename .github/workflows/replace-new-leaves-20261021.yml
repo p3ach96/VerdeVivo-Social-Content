@@ -1,0 +1,67 @@
+name: VerdeVivo replace approved 30 October image
+
+on:
+  push:
+    branches: [editorial-fix-new-leaves-20261021]
+    paths:
+      - .github/workflows/replace-new-leaves-20261021.yml
+
+permissions:
+  contents: write
+
+jobs:
+  replace-only-approved-image:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - name: Checkout isolated staging branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          persist-credentials: true
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install exact Pillow version
+        run: python -m pip install --disable-pip-version-check Pillow==12.3.0
+      - name: Download image from Higgsfield and verify exact approved bytes
+        shell: bash
+        env:
+          APPROVED_URL: https://d2ol7oe51mr4n9.cloudfront.net/user_3IKUgIPJVJaS3AlVNLw6EYWWGJC/f2db43b8-40f9-43e3-b16d-5957c8e915c4.png
+        run: |
+          set -Eeuo pipefail
+          python - <<'PY'
+          import os,urllib.request,hashlib,io,json,pathlib
+          from PIL import Image
+          root=pathlib.Path("content/2026-10-30-new-leaves-tell-a-story")
+          manifest=json.loads((root/"manifest.json").read_text())
+          assert manifest["id"]=="2026-10-30-new-leaves-tell-a-story"
+          assert manifest["publishAt"]=="2026-10-30T18:00:00+01:00"
+          assert manifest["status"]=="approved" and manifest["image"]=="social.png"
+          with urllib.request.urlopen(os.environ["APPROVED_URL"],timeout=35) as resp:
+              assert resp.status==200
+              b=resp.read(5_000_000)
+          assert hashlib.sha256(b).hexdigest()=="0bd69afdad2fa1f05444882be54f6acf2c86470b53d1e44b1baf53b2e62d43a0", "Source image differs from approved original"
+          im=Image.open(io.BytesIO(b))
+          assert im.mode=="RGB" and im.size==(1254,1254) and im.format=="PNG"
+          dst=io.BytesIO()
+          im.resize((1200,1200),Image.Resampling.LANCZOS).save(dst,format="PNG",optimize=True,compress_level=9)
+          output=dst.getvalue()
+          assert len(output)==1960811 and len(output)<=2000000
+          assert hashlib.sha256(output).hexdigest()=="cd15509e651b08c22a435c0e5c6475abc202ab05ea66ba3d6a937dcb61d94615", "Optimized output differs from approved"
+          (root/"social.png").write_bytes(output)
+          print("IMAGE_VERIFIED",len(output),hashlib.sha256(output).hexdigest())
+          PY
+      - name: Commit only the single image file to isolated branch
+        shell: bash
+        run: |
+          set -Eeuo pipefail
+          test "$(git branch --show-current)" = "editorial-fix-new-leaves-20261021"
+          git add -- content/2026-10-30-new-leaves-tell-a-story/social.png
+          test "$(git diff --cached --name-only)" = "content/2026-10-30-new-leaves-tell-a-story/social.png"
+          git diff --cached --check
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "fix(editorial): replace duplicate new leaves image with approved artwork"
+          git push origin HEAD:editorial-fix-new-leaves-20261021
