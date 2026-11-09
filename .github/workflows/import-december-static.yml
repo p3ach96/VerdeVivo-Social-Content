@@ -1,0 +1,35 @@
+name: Import December approved static posts
+
+on:
+  push:
+    branches:
+      - staging/december-2026-eight-posts
+    paths:
+      - ops/december-import-source.json
+
+permissions:
+  contents: write
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - name: Checkout staging branch
+        uses: actions/checkout@v4
+        with:
+          ref: staging/december-2026-eight-posts
+          persist-credentials: true
+      - name: Validate approved image hashes and stage all eight posts
+        run: python3 ops/import-december-static.py
+      - name: Commit only fully verified posts to staging
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add content/index.json content/2026-12-*
+          if git diff --cached --quiet; then
+            echo "No changes: import already complete"
+          else
+            git commit -m "content(editorial): stage 8 December 2026 approved static posts with verified PNGs"
+            git push origin HEAD:staging/december-2026-eight-posts
+          fi
