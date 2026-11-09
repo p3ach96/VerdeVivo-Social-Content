@@ -1,0 +1,22 @@
+{
+  "id": "2026-12-25-give-your-terrarium-a-breather",
+  "version": 1,
+  "status": "draft",
+  "language": "en",
+  "publishAt": "2026-12-25T18:00:00+01:00",
+  "image": "social.png",
+  "altText": "A clear-lidded glass terrarium with lush green Fittonia and moss in warm sunlight, lid lifted slightly. White serif title: 'Give your terrarium a breather.'",
+  "caption": "If an enclosed terrarium stays heavily fogged, briefly lift the lid to improve airflow. The goal is balanced moisture, not constantly wet glass.",
+  "hashtags": [
+    "TerrariumCare",
+    "PlantCare",
+    "IndoorGarden",
+    "VerdeVivo"
+  ],
+  "channels": [
+    "bluesky",
+    "mastodon",
+    "youtube",
+    "instagram"
+  ]
+}

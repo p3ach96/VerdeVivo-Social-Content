@@ -1,0 +1,22 @@
+{
+  "id": "2026-12-18-the-colour-comes-from-bracts",
+  "version": 1,
+  "status": "draft",
+  "language": "en",
+  "publishAt": "2026-12-18T18:00:00+01:00",
+  "image": "social.png",
+  "altText": "A vibrant red poinsettia with crimson bracts and small central flowers in a beige pot. White serif title: 'The colour comes from bracts.'",
+  "caption": "A poinsettia's vivid red display comes from coloured bracts, not its tiny true flowers. Give it bright, indirect light and keep it away from cold draughts.",
+  "hashtags": [
+    "Poinsettia",
+    "PlantFacts",
+    "WinterPlants",
+    "VerdeVivo"
+  ],
+  "channels": [
+    "bluesky",
+    "mastodon",
+    "youtube",
+    "instagram"
+  ]
+}

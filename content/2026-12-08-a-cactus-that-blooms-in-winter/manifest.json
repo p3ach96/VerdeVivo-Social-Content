@@ -1,0 +1,22 @@
+{
+  "id": "2026-12-08-a-cactus-that-blooms-in-winter",
+  "version": 1,
+  "status": "draft",
+  "language": "en",
+  "publishAt": "2026-12-08T18:00:00+01:00",
+  "image": "social.png",
+  "altText": "Pink-red flowers bloom on a holiday cactus with segmented green stems, illuminated by golden sunlight. White serif title: 'A cactus that blooms in winter.'",
+  "caption": "Holiday cacti can flower in the colder months. Cooler nights and a consistent period of darkness can help set buds; avoid sudden changes once they appear.",
+  "hashtags": [
+    "HolidayCactus",
+    "WinterBlooms",
+    "PlantCare",
+    "VerdeVivo"
+  ],
+  "channels": [
+    "bluesky",
+    "mastodon",
+    "youtube",
+    "instagram"
+  ]
+}

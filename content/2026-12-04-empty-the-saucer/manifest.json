@@ -1,0 +1,22 @@
+{
+  "id": "2026-12-04-empty-the-saucer",
+  "version": 1,
+  "status": "draft",
+  "language": "en",
+  "publishAt": "2026-12-04T18:00:00+01:00",
+  "image": "social.png",
+  "altText": "A potted ZZ plant is lifted over a saucer as excess water drains, in warm window light. White serif title: 'Empty the saucer.'",
+  "caption": "A little water left under the pot can keep roots too wet. After watering, let the pot drain, then empty the saucer to help protect healthy roots.",
+  "hashtags": [
+    "WateringTips",
+    "PlantRoots",
+    "Houseplants",
+    "VerdeVivo"
+  ],
+  "channels": [
+    "bluesky",
+    "mastodon",
+    "youtube",
+    "instagram"
+  ]
+}
