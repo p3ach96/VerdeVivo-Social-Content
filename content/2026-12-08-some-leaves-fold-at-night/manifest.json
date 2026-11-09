@@ -1,0 +1,22 @@
+{
+  "id": "2026-12-08-some-leaves-fold-at-night",
+  "version": 1,
+  "status": "approved",
+  "language": "en",
+  "publishAt": "2026-12-08T18:00:00+01:00",
+  "image": "social.png",
+  "altText": "Maranta prayer plant with patterned green and burgundy foliage under warm light. White serif title: 'Some leaves fold at night.'",
+  "caption": "Your prayer plant may look different after sunset. Many Maranta leaves lift as light fades—a daily movement called nyctinasty. Take a look tonight and see what changes.",
+  "hashtags": [
+    "PrayerPlant",
+    "Maranta",
+    "PlantMovement",
+    "VerdeVivo"
+  ],
+  "channels": [
+    "bluesky",
+    "mastodon",
+    "youtube",
+    "instagram"
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "context": "8 future slots after 2026-11-13; Tuesday and Friday 18:00 Europe/Rome",
+  "main_base_sha": "5f0530028eb53be5670619f0ee46f86f36706e8d",
+  "previous_index_count": 16,
+  "added_count": 8,
+  "final_index_count": 24,
+  "source_artwork": "Eight user-approved original 1254x1254 PNGs retained separately; 1080x1080 technical publisher copies resampled for sub-2MB provider constraint",
+  "posts": [
+    {
+      "id": "2026-11-17-dust-off-the-leaves",
+      "publishAt": "2026-11-17T18:00:00+01:00",
+      "image_blob_sha": "1f5d5a914a28de7b1e548a76c69d8dd4c074f764",
+      "image_bytes": 1566403,
+      "caption_and_hashtag_chars": 199,
+      "channels": [
+        "bluesky",
+        "mastodon",
+        "youtube",
+        "instagram"
+      ]
+    },
+    {
+      "id": "2026-11-20-empty-the-saucer",
+      "publishAt": "2026-11-20T18:00:00+01:00",
+      "image_blob_sha": "ba0e75b14adf0ec90b60f49bd33367f95f43e35e",
+      "image_bytes": 1654169,
+      "caption_and_hashtag_chars": 222,
+      "channels": [
+        "bluesky",
+        "mastodon",
+        "youtube",
+        "instagram"
+      ]
+    },
+    {
+      "id": "2026-11-24-a-cactus-that-blooms-in-winter",
+      "publishAt": "2026-11-24T18:00:00+01:00",
+      "image_blob_sha": "d85405b2486de4aa862e581c461b10cb15d05934",
+      "image_bytes": 1548040,
+      "caption_and_hashtag_chars": 215,
+      "channels": [
+        "bluesky",
+        "mastodon",
+        "youtube",
+        "instagram"
+      ]
+    },
+    {
+      "id": "2026-11-27-a-cutting-starts-at-a-node",
+      "publishAt": "2026-11-27T18:00:00+01:00",
+      "image_blob_sha": "e26b868e7c332c4af86de701ab0426f97d5b75b5",
+      "image_bytes": 1634858,
+      "caption_and_hashtag_chars": 237,
+      "channels": [
+        "bluesky",
+        "mastodon",
+        "youtube",
+        "instagram"
+      ]
+    },
+    {
+      "id": "2026-12-01-give-it-a-way-to-climb",
+      "publishAt": "2026-12-01T18:00:00+01:00",
+      "image_blob_sha": "8e01501dc863f1a82f4f95152e26e874cc24c7e5",
+      "image_bytes": 1559396,
+      "caption_and_hashtag_chars": 223,
+      "channels": [
+        "bluesky",
+        "mastodon",
+        "youtube",
+        "instagram"
+      ]
+    },
+    {
+      "id": "2026-12-04-the-colour-comes-from-bracts",
+      "publishAt": "2026-12-04T18:00:00+01:00",
+      "image_blob_sha": "f1e03573276a421e30c89db6298ade4d4fe1196b",
+      "image_bytes": 1647952,
+      "caption_and_hashtag_chars": 221,
+      "channels": [
+        "bluesky",
+        "mastodon",
+        "youtube",
+        "instagram"
+      ]
+    },
+    {
+      "id": "2026-12-08-some-leaves-fold-at-night",
+      "publishAt": "2026-12-08T18:00:00+01:00",
+      "image_blob_sha": "09dac99ea65717a5fe1c92bf98f30436e6317607",
+      "image_bytes": 1650099,
+      "caption_and_hashtag_chars": 217,
+      "channels": [
+        "bluesky",
+        "mastodon",
+        "youtube",
+        "instagram"
+      ]
+    },
+    {
+      "id": "2026-12-11-give-your-terrarium-a-breather",
+      "publishAt": "2026-12-11T18:00:00+01:00",
+      "image_blob_sha": "e1599f5a182a6e0320c3a99fbfd7d5edd109f42e",
+      "image_bytes": 1802530,
+      "caption_and_hashtag_chars": 238,
+      "channels": [
+        "bluesky",
+        "mastodon",
+        "youtube",
+        "instagram"
+      ]
+    }
+  ]
+}

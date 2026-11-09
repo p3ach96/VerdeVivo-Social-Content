@@ -1,0 +1,22 @@
+{
+  "id": "2026-11-17-dust-off-the-leaves",
+  "version": 1,
+  "status": "approved",
+  "language": "en",
+  "publishAt": "2026-11-17T18:00:00+01:00",
+  "image": "social.png",
+  "altText": "A hand gently wipes a glossy green rubber plant leaf with a soft cloth, in warm sunlight. White serif title: 'Dust off the leaves.'",
+  "caption": "A little dust can dull a leaf's shine and block some light. For smooth foliage, a soft, damp cloth is often all you need. When did you last check yours?",
+  "hashtags": [
+    "LeafCare",
+    "IndoorPlants",
+    "PlantCare",
+    "VerdeVivo"
+  ],
+  "channels": [
+    "bluesky",
+    "mastodon",
+    "youtube",
+    "instagram"
+  ]
+}

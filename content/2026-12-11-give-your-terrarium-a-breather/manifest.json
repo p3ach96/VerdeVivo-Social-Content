@@ -1,0 +1,22 @@
+{
+  "id": "2026-12-11-give-your-terrarium-a-breather",
+  "version": 1,
+  "status": "approved",
+  "language": "en",
+  "publishAt": "2026-12-11T18:00:00+01:00",
+  "image": "social.png",
+  "altText": "A clear-lidded glass terrarium with lush green Fittonia and moss in warm sunlight, lid lifted slightly. White serif title: 'Give your terrarium a breather.'",
+  "caption": "A little condensation is normal in a closed terrarium. But if the glass stays heavily misted, lift the lid briefly and allow some airflow. Balanced moisture beats permanently soggy glass.",
+  "hashtags": [
+    "TerrariumCare",
+    "Fittonia",
+    "IndoorGarden",
+    "VerdeVivo"
+  ],
+  "channels": [
+    "bluesky",
+    "mastodon",
+    "youtube",
+    "instagram"
+  ]
+}
